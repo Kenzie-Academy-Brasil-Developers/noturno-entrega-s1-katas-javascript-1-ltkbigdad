@@ -1,94 +1,124 @@
 function oneThroughTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result*/
-    
-}
-
-//call function oneThroughTwenty
-
-function evensToTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result */
+  let meuRetorno = [];
   
-}
-
-//call function evensToTwenty
-
-function oddsToTwenty() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+      for (let counter = 1; counter <= 20; counter++) {
+          meuRetorno.push(counter)
+      }
+  
+      return meuRetorno;
+  }
+  console.log(oneThroughTwenty());
+  
+  function evensToTwenty() {
+  let meuRetorno = [];
+  
+      for (let counter = 2; counter <= 20; counter += 2) {
+          meuRetorno.push(counter)
+      }
+  
+      return meuRetorno;
+  }
+  
+  console.log(evensToTwenty());
+  
+  function oddsToTwenty () {
+  let meuRetorno = [];
+  
+      for (let counter = 1; counter <= 20; counter += 2) {
+          meuRetorno.push(counter)
+      }
+  
+      return meuRetorno;
+  }
+  
+  console.log(oddsToTwenty ());
+  
+  function multiplesOfFive() {
+  let meuRetorno = [];
+  
+      for (let counter = 5; counter <= 100; counter += 5) {
+          meuRetorno.push(counter)
+      }
+  
+      return meuRetorno;
+  }
+  
+  console.log(multiplesOfFive());
+  
+  
+  
+  /* function squareNumbers() {
+  let meuRetorno = [];
+  
+      for (let counter = 1; counter <= 100; counter ) {
+          meuRetorno.push(counter)
+      }
+  
+      return meuRetorno;
+  }
+  
+  console.log(squareNumbers()); */
+  
+  
+  function countingBackwards() {
+  let meuRetorno = [];
+  
+      for (let counter = 20; counter >= 1; counter -= 1) {
+          meuRetorno.push(counter)
+      }
+  
+      return meuRetorno;
+  }
+  
+  console.log(countingBackwards()); 
+  
+  function evenNumbersBackwards() {
+  let meuRetorno = [];
+  
+      for (let counter = 20; counter >= 1; counter -= 2) {
+          meuRetorno.push(counter)
+      }
+  
+      return meuRetorno;
+  }
+  
+  console.log(evenNumbersBackwards()); 
+  
+  function oddNumbersBackwards() {
+  let meuRetorno = [];
+  
+      for (let counter = 19; counter >= 1; counter -= 2) {
+          meuRetorno.push(counter)
+      }
+  
+      return meuRetorno;
+  }
+  
+  console.log(oddNumbersBackwards()); 
+  
+  function multiplesOfFiveBackwards() {
+  let meuRetorno = [];
+  
+      for (let counter = 100; counter >= 1; counter -= 5) {
+          meuRetorno.push(counter)
+      }
+  
+      return meuRetorno;
+  }
+  
+  console.log(multiplesOfFiveBackwards());
+  
+  
    
-}
-
-//call function oddsToTwenty
-
-function multiplesOfFive() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-
-}
-
-//call function multiplesOfFive
-
-function squareNumbers() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-    
-}
-
-//call function squareNumbers
-
-function countingBackwards() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-}
-
-//call function countingBackwards
-
-function evenNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-}
-
-//call function evenNumbersBackwards
-
-function oddNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-}
-
-//call function oddNumbersBackwards
-
-function multiplesOfFiveBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-}
-
-//call function multiplesOfFiveBackwards
-
-function squareNumbersBackwards() {
-    
-   /* Your code goes below
-  Write a for or a while loop
-  return the result */
-}
-
-//call function squareNumbersBackwards
+  /* function squareNumbersBackwards() {
+  let meuRetorno = [];
+  
+      for (let counter = 100; counter >= 1; counter ) {
+          meuRetorno.push(counter)
+      }
+  
+      return meuRetorno;
+  }
+  
+  console.log(squareNumbersBackwards()); */
+  
