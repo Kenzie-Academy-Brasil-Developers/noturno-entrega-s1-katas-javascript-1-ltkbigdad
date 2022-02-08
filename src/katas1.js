@@ -46,21 +46,20 @@ function oneThroughTwenty() {
   console.log(multiplesOfFive());
   
   
+  function squareNumbers() {
+    let meuRetorno = [];
+    
+        for (let counter = 1; counter <= 10; counter ++) {
+            meuRetorno.push(counter * counter)
+        }
+    
+        return meuRetorno;
+    }
+    
+    console.log(squareNumbers()); 
   
-  /* function squareNumbers() {
-  let meuRetorno = [];
   
-      for (let counter = 1; counter <= 100; counter ) {
-          meuRetorno.push(counter)
-      }
-  
-      return meuRetorno;
-  }
-  
-  console.log(squareNumbers()); */
-  
-  
-  function countingBackwards() {
+   function countingBackwards() {
   let meuRetorno = [];
   
       for (let counter = 20; counter >= 1; counter -= 1) {
@@ -106,19 +105,18 @@ function oneThroughTwenty() {
       return meuRetorno;
   }
   
-  console.log(multiplesOfFiveBackwards());
+  console.log(multiplesOfFiveBackwards()); 
   
   
-   
-  /* function squareNumbersBackwards() {
-  let meuRetorno = [];
-  
-      for (let counter = 100; counter >= 1; counter ) {
-          meuRetorno.push(counter)
-      }
-  
-      return meuRetorno;
-  }
-  
-  console.log(squareNumbersBackwards()); */
+  function squareNumbersBackwards() {
+    let meuRetorno = [];
+    
+        for (let counter = 10; counter >= 1; counter --) {
+            meuRetorno.push(counter * counter)
+        }
+    
+        return meuRetorno;
+    }
+    
+    console.log(squareNumbersBackwards());
   
